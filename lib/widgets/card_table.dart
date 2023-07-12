@@ -14,35 +14,30 @@ class CardTable extends StatelessWidget {
           children: [
               _SingleCard(icon: Icons.notifications_active_outlined,color: Colors.blue,text: 'Notification'),
               _SingleCard(icon: Icons.timer,color: Colors.indigo,text: 'Time'),
-
           ]
         ),
         TableRow(
           children: [
               _SingleCard(icon: Icons.apple_outlined,color: Colors.white,text: 'Apple'),
               _SingleCard(icon: Icons.email_outlined,color: Colors.amber,text: 'Email'),
-
           ]
         ),
         TableRow(
           children: [
               _SingleCard(icon: Icons.account_circle_outlined,color: Colors.brown,text: 'User'),
               _SingleCard(icon: Icons.call,color: Colors.green,text: 'Phone'),
-
           ]
         ),
         TableRow(
           children: [
               _SingleCard(icon: Icons.music_note_outlined,color: Colors.pink,text: 'Notification'),
               _SingleCard(icon: Icons.video_call_outlined,color: Colors.red,text: 'Time'),
-
           ]
         ),
         TableRow(
           children: [
               _SingleCard(icon: Icons.notifications_active_outlined,color: Colors.blue,text: 'Notification'),
               _SingleCard(icon: Icons.timer,color: Colors.indigo,text: 'Time'),
-
           ]
         ),
         
@@ -74,7 +69,7 @@ class _SingleCard extends StatelessWidget {
         child: Icon(icon,size: 30, color: Colors.white),
           radius: 30,
      ),
-      SizedBox(height: 20,),
+      const SizedBox(height: 20,),
       Text(text, style: TextStyle(color: color,fontSize: 20),)
     ]),
       );

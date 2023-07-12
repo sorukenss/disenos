@@ -34,7 +34,7 @@ class ButtonSecion extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 30, vertical : 15),
+       margin: const EdgeInsets.symmetric(horizontal: 30, vertical : 15),
       child: const Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [

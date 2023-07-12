@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
           _HomeBody(),
         ],
       ),
-      bottomNavigationBar: CustomButtomNavigation(),
+      bottomNavigationBar:const  CustomButtomNavigation(),
     );
   }
 }
@@ -23,8 +23,8 @@ class HomeScreen extends StatelessWidget {
 class _HomeBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
+    return const SingleChildScrollView(
+      child:  Column(
         children: [
           //title
           PageTitle(),
